@@ -18,6 +18,7 @@ header-includes:
 toc: true
 numbersections: true
 top-level-division: chapter
+toc-depth: 1
 
 title:
 - Markdown PDF Book Template
