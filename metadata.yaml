@@ -1,0 +1,27 @@
+from: markdown
+to: latex
+standalone: true
+documentclass: book
+
+papersize:
+- b5
+fontsize:
+- 12pt
+geometry:
+- margin=1in
+
+pdf-engine: xelatex
+header-includes:
+- \usepackage[Rejne]{fncychap}
+- \usepackage{lettrine}
+
+toc: true
+numbersections: true
+top-level-division: chapter
+
+title:
+- Markdown PDF Book Template
+subtitle:
+- An Example
+author:
+- Christopher Dumas
